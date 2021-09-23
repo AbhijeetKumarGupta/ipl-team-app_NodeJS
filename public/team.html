@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="team.css" />
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="team.js"></script>
+    <title>Team Data</title>
+  </head>
+  <body>
+    <div id="teamDetail">
+      <div id="formToAddPlayer">
+        <input
+          type="text"
+          name="name"
+          id="namePlayer"
+          ,
+          placeholder="Player Name"
+        />
+        <br />
+        <input
+          type="text"
+          name="price"
+          id="pricePlayer"
+          ,
+          placeholder="Price (e.g. 6 Cr ,20 Lac etc...)"
+        />
+        <div>
+          <input
+            type="checkbox"
+            name="isPlaying"
+            id="isPlayingPlayer"
+            ,
+            placeholder="Playing"
+          />
+          <label for="isPlaying"> Is Playing?</label>
+        </div>
+        <input
+          type="text"
+          name="description"
+          id="descriptionPlayer"
+          ,
+          placeholder="Description (e.g. Bowler ,Batsman etc...)"
+        />
+        <br />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          ,
+          placeholder="Password to add player"
+        />
+        <br />
+        <button id="addPlayer">Add Player</button>
+      </div>
+      <div id="teamName"></div>
+    </div>
+    <div id="playersList"></div>
+  </body>
+</html>

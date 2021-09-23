@@ -1,0 +1,129 @@
+input {
+  box-sizing: border-box;
+  padding: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  width: 100%;
+}
+p {
+  margin: 0px;
+}
+#addPlayer {
+  border: 1px solid black;
+  background-color: white;
+  font-weight: 600px;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 3px;
+  width: 100%;
+  border-radius: 15px;
+}
+#addPlayer:hover {
+  background-color: darkgreen;
+  color: white;
+}
+#formToAddPlayer div input {
+  width: 10%;
+}
+#teamDetail {
+  visibility: hidden;
+  display: flex;
+  border: 1px solid black;
+}
+#formToAddPlayer {
+  width: 50%;
+  padding: 20px;
+}
+#teamName {
+  text-align: center;
+  padding-top: 6%;
+  font-size: 46px;
+  width: 50%;
+  border: 2px solid black;
+  background-color: #191919;
+  font-weight: 600;
+  color: #f9004d;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.playerCard {
+  display: flex;
+  border: 1px solid black;
+  padding: 0px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.playerDetails {
+  border: 5px solid white;
+  width: 40%;
+  padding: 12px;
+  background-color: black;
+  color: white;
+}
+
+.playerDetails p {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.playerDetails p span {
+  color: yellow;
+}
+
+.commentSection {
+  width: 60%;
+}
+
+.oldComments {
+  border: 1px solid black;
+  padding: 5px;
+  height: 125px;
+  overflow-y: scroll;
+}
+
+.commentCard {
+  margin-bottom: 0px;
+}
+
+.commenterName {
+  border: 1px solid black;
+  font-size: 18px;
+  font-weight: 600;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 1px;
+  background-color: #101010;
+  color: white;
+}
+.comments {
+  border: 1px solid black;
+  padding: 2px;
+}
+
+.addComment {
+  display: flex;
+}
+
+.addComment button {
+  width: 20%;
+  background-color: black;
+  border: 1px solid black;
+  font-weight: 600;
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+  margin-top: 0px;
+}
+.addComment button:hover {
+  background-color: darkgreen;
+}
+
+.addComment div {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 2px;
+  width: 80%;
+}

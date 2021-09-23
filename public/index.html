@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+    <title>Home</title>
+  </head>
+  <body>
+    <div id="top">
+      <h3>Enter name of the team in short and click search icon :-</h3>
+      <div id="searchingMenu">
+        <div id="search-wrapper">
+          <i id="searchIco" class="fas fa-search" aria-hidden="true"></i>
+          <input
+            id="search-box"
+            type="text"
+            name="search"
+            placeholder="Search Team (e.g. type 'mi' for 'Mumbai Indians' etc...)"
+          />
+        </div>
+      </div>
+    </div>
+    <div id="bottom">
+      <h3>Admin Login</h3>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        ,
+        placeholder="Password to open admin page"
+      />
+      <br />
+      <button id="login">Login</button>
+    </div>
+  </body>
+</html>

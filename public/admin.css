@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+h1 {
+  background-color: #191919;
+  color: #f9004d;
+  text-decoration: underline;
+  text-decoration-color: #fff;
+  margin: 0px;
+  padding: 10px;
+}
+.teamDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #101010;
+}
+
+.playerDetails {
+  border: 5px solid white;
+  width: 300px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  margin: 5px;
+}
+
+.playerDetails p {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.playerDetails p span {
+  color: yellow;
+}
